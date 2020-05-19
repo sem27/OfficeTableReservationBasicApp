@@ -1,0 +1,13 @@
+
+<div class="block-list">
+    <div class="container inner">
+      <div class="row">
+          <div class="col-md-12">
+              <h5 class="text-center">Wählen Sie ein Tisch:</h5>
+          </div>
+        <div (click)="onSelect(table.Id)" *ngFor="let table of service.list" class="col">
+              {{table.Tischnummer}}
+        </div>
+      </div>
+    </div>
+  </div>

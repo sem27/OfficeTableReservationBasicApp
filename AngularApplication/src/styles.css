@@ -1,0 +1,29 @@
+input.ng-touched.ng-invalid{
+    border-color:#dc3545;
+}
+
+input.ng-valid{
+    border-color:#28a745;
+}
+
+#toast-container > div{
+    opacity:1;
+}
+
+.block-list .row>.col, .office-list .row>[class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+    cursor: pointer;
+}
+
+.container.inner {
+    max-width: 600px;
+    margin-bottom:30px;
+}
+
+.container.inner form{
+    max-width: 300px;
+    margin: 0px auto;
+}

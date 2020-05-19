@@ -1,0 +1,12 @@
+<div class="block-list">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-md-12">
+          <h5 class="text-center">Wählen Sie ein Office um ein Tisch zu buchen:</h5>
+      </div>
+      <div (click)="onSelect(office)" *ngFor="let office of service.list" class="col">
+            {{office.Name}}
+      </div>
+    </div>
+  </div>
+</div>
